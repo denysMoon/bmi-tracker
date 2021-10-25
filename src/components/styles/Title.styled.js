@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-const Title = styled.h1`
-  color: red;
+const TitleStyled = styled.h1`
+  color: ${(props) => (props.color === true ? "red" : "none")};
   padding: 10px;
 `;
 
-export default Title;
+export default TitleStyled;

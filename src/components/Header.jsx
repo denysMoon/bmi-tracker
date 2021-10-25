@@ -1,10 +1,10 @@
-import Title from "./styles/Title.styled";
 import HeaderStyled from "./styles/Header.styled";
+import Title from "./Title";
 
 const Header = () => {
   return (
     <HeaderStyled>
-      <Title>BMI tracker</Title>
+      <Title />
     </HeaderStyled>
   );
 };

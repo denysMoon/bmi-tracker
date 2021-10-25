@@ -5,10 +5,10 @@ import { Link as RouterLink } from "react-router-dom";
 const Navigation = () => {
   return (
     <Container>
-      <RouterLink to="/">
+      <RouterLink to="/" style={{ textDecoration: "none" }}>
         <Link>Main</Link>
       </RouterLink>
-      <RouterLink to="/about">
+      <RouterLink to="/about" style={{ textDecoration: "none" }}>
         <Link>About BMI</Link>
       </RouterLink>
     </Container>

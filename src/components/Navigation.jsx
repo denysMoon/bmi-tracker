@@ -1,11 +1,16 @@
 import { Container } from "./styles/Container.styled";
 import { Link } from "./styles/Link.styled";
+import { Link as RouterLink } from "react-router-dom";
 
 const Navigation = () => {
   return (
     <Container>
-      <Link>Main</Link>
-      <Link>About BMI</Link>
+      <RouterLink to="/">
+        <Link>Main</Link>
+      </RouterLink>
+      <RouterLink to="/about">
+        <Link>About BMI</Link>
+      </RouterLink>
     </Container>
   );
 };

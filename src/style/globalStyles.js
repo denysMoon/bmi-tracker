@@ -9,11 +9,13 @@ const GlobalStyle = createGlobalStyle`
   }
 
   html{
-    font-size: '24px'
+    font-size: '24px';
+    color: ${({ theme }) => theme.color.text}
   }
 
   body{
     font-family: 'Inconsolata', monospace;
+    background: ${({ theme }) => theme.color.primary.main};
   }
 `;
 

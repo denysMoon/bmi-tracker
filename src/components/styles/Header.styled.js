@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const HeaderStyled = styled.header`
-  background: ${({ theme }) => theme.color.main};
-  height: 80px;
+  background: none;
+  height: 50px;
+  border-bottom: 2px solid ${({ theme }) => theme.color.secondary.main};
 `;

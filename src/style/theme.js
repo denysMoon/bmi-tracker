@@ -1,6 +1,6 @@
 export const theme = {
   color: {
-    main: "blue",
+    main: "#464646",
     secondary: "yellow",
   },
 };

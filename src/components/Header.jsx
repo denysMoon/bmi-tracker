@@ -1,12 +1,7 @@
-import HeaderStyled from "./styles/Header.styled";
-import Title from "./Title";
+import { HeaderStyled } from "./styles/Header.styled";
 
 const Header = () => {
-  return (
-    <HeaderStyled>
-      <Title />
-    </HeaderStyled>
-  );
+  return <HeaderStyled></HeaderStyled>;
 };
 
 export default Header;

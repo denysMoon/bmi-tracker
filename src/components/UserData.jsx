@@ -6,11 +6,11 @@ const UserData = () => {
 
   const showUserData = () => {
     if (userData) {
-      return +userData.toFixed(1);
+      return "You BMI: " + +userData.toFixed(1);
     }
   };
 
-  return <Container>You BMI: {showUserData()}</Container>;
+  return <Container>{showUserData()}</Container>;
 };
 
 export default UserData;

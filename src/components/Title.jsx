@@ -1,7 +1,7 @@
 import { TitleStyled } from "./styles/Title.styled";
 
 const Title = () => {
-  return <TitleStyled>BMI tracker</TitleStyled>;
+  return <TitleStyled>Get your BMI</TitleStyled>;
 };
 
 export default Title;

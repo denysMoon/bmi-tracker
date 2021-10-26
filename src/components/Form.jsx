@@ -21,13 +21,13 @@ const Form = () => {
   return (
     <FormStyled onSubmit={submit}>
       <Input
-        placeholder="Weight"
+        placeholder="Weight, kg"
         type="number"
         value={weight}
         onChange={(e) => setWeight(e.target.value)}
       />
       <Input
-        placeholder="Heigh"
+        placeholder="Heigh, m"
         type="number"
         value={height}
         onChange={(e) => setHeight(e.target.value)}

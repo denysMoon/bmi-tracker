@@ -1,7 +1,7 @@
 import { TitleStyled } from "./styles/Title.styled";
 
-const Title = () => {
-  return <TitleStyled>Get your BMI </TitleStyled>;
-};
+console.log(42);
+
+const Title = () => <TitleStyled> Get your BMI </TitleStyled>;
 
 export default Title;

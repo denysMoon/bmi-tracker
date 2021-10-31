@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
   body{
     font-family: 'Inconsolata', monospace;
     background: ${({ theme }) => theme.color.primary.main};
-    background-image: url('bg.jpg')
+    /* background-image: url('bg.jpg') */
   }
   a{
     text-decoration: none;
